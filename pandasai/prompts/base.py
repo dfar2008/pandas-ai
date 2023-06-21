@@ -2,7 +2,7 @@
 In order to better handle the instructions, this prompt module is written.
 """
 
-from pandasai.exceptions import MethodNotImplementedError
+from ..exceptions import MethodNotImplementedError
 
 
 class Prompt:

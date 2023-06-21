@@ -5,7 +5,7 @@ Middleware to run the code in streamlit and address the issues with streamlit
 integration with PandasAI.
 """
 
-from pandasai.middlewares.base import Middleware
+from ..middlewares.base import Middleware
 
 
 class StreamlitMiddleware(Middleware):

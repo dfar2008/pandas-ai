@@ -14,7 +14,7 @@ exactly to get the answer to the following question:
 
 from datetime import date
 
-from pandasai.constants import END_CODE_TAG, START_CODE_TAG
+from ..constants import END_CODE_TAG, START_CODE_TAG
 
 from .base import Prompt
 

@@ -4,7 +4,7 @@ Charts Middleware class
 Middleware to handle the charts in PandasAI.
 """
 
-from pandasai.middlewares.base import Middleware
+from ..middlewares.base import Middleware
 
 
 class ChartsMiddleware(Middleware):

@@ -1,4 +1,4 @@
-from pandasai.prompts.base import Prompt
+from ..prompts.base import Prompt
 from .base import LLM
 
 
