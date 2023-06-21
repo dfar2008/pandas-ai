@@ -21,7 +21,7 @@ code with {START_CODE_TAG} exactly and suffix the code with {END_CODE_TAG} exact
 """  # noqa: E501
 from datetime import date
 
-from pandasai.constants import END_CODE_TAG, START_CODE_TAG
+from ..constants import END_CODE_TAG, START_CODE_TAG
 
 from .base import Prompt
 
